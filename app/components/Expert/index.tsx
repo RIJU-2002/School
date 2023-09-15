@@ -95,16 +95,16 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div className="py-10 sm:py-20 bg-lightblue">
+            <div className="py-10 sm:py-20 bg-[#0284c7]">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className='text-dblue text-lg font-semibold mb-3 tracking-widest uppercase ls-51'>Head of School</h2>
+                            <h2 className='text-dblue text-lg font-semibold mb-3 tracking-widest uppercase ls-51'>Managing Commitee</h2>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold text-black">
-                                Let&apos;s meet the expert.
+                                Let&apos;s meet the Managing Committee.
                             </h3>
                         </Fade>
                     </div>
