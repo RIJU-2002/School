@@ -14,7 +14,7 @@ const Banner = () => {
 
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h1 className="text-4xl lg:text-7xl font-semibold mb-5 text-lightgrey md:4px lg:text-start text-center">
+                            <h1 className="text-4xl lg:text-5xl font-semibold mb-5 text-lightgrey md:4px lg:text-start text-center">
                                 Welcome <br /> to the website of PARUL INDOBALA SISHU SIKSHA SADAN
                             </h1>
                         </Fade>
@@ -34,7 +34,7 @@ const Banner = () => {
                             <Image src={'/images/Banner/scholar.png'} alt="pizza-image" width={68} height={68} />
                             <p className='text-lg font-normal'>More than 500+ <br /> Successful Scholars</p>
                         </div>
-                        <Image src="/images/Banner/school.png" alt="nothing" width={1000} height={805} />
+                        <Image src="/images/Banner/school.png" alt="nothing" width={900} height={700} style={{borderRadius:'20px'}} />
                     </div>
                 </div>
             </div>
