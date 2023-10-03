@@ -7,6 +7,7 @@ import Notice from "./components/Notice/notice";
 import Admission from "./components/Admission/Admission";
 import Teachers from "./components/Teachers/index";
 import Staff from "./components/Staff/index";
+import History from "./components/History/History";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Teachers />
       <Gallery />
       <Notice/>
+      <History/>
       <Admission />
     </main>
   );
