@@ -14,35 +14,16 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Principal',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/boyone.svg',
+        profession: 'President',
+        name: 'Prof. Dulai Ch. Mal',
+        imgSrc: '/images/Expert/default.png',
     },
     {
-        profession: 'Vice Principal',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        profession: 'Secretary',
+        name: 'Sri Nandalal Ghosh',
+        imgSrc: '/images/Expert/default.png',
     },
-    {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/boytwo.svg',
-    },
-    {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
-    },
-    {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
-    },
-    {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
-    },
+    
 ]
 
 // CAROUSEL SETTINGS
@@ -54,7 +35,7 @@ export default class MultipleItems extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow:2,
             // centerMode: true,
             slidesToScroll: 1,
             arrows: true,
@@ -66,7 +47,7 @@ export default class MultipleItems extends Component {
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false
@@ -75,7 +56,7 @@ export default class MultipleItems extends Component {
                 {
                     breakpoint: 800,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false
@@ -95,7 +76,7 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div className="py-10 sm:py-20 bg-[#0284c7]">
+            <div className="py-10 sm:py-20 bg-[#0284c7]" id="expert-section">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">
@@ -114,11 +95,9 @@ export default class MultipleItems extends Component {
                             <div key={i}>
                                 <div className='m-3 py-14 my-10 text-center'>
                                     <div className="relative">
-                                        <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
-                                        <div className="absolute top-[50%] right-[2%]">
-                                            <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={220} height={120} />
-                                        </div>
+                                        <Image src={items.imgSrc} alt="gaby" width={162} height={162} className="inline-block m-auto" />
                                     </div>
+                                    <h3>------------</h3>
                                     <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
                                     <h4 className='text-lg font-normal text-lightblack pt-4 pb-2 opacity-50'>{items.profession}</h4>
                                 </div>

@@ -12,8 +12,8 @@ export default function Home() {
       <Banner />
       <Features />
       <Expert />
-      <Teachers />
       <Staff />
+      <Teachers />
       <Gallery />
       <Admission />
     </main>

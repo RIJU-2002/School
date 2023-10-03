@@ -15,33 +15,53 @@ interface DataType {
 const postData: DataType[] = [
   {
     profession: "Principal",
-    name: "Shoo Thar Mien",
-    imgSrc: "/images/Expert/boyone.svg",
+    name: "Sri Swarup Kumar Roy",
+    imgSrc: "/images/Expert/default.png",
   },
   {
     profession: "Vice Principal",
-    name: "Shoo Thar Mien",
-    imgSrc: "/images/Expert/girl.png",
+    name: "Sri Srikanta Pal",
+    imgSrc: "/images/Expert/Srikanta Pal.png",
+  },  
+  {
+    profession: "",
+    name: "Sri Saikat Hazra",
+    imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "Junior Chef",
-    name: "Shoo Thar Mien",
-    imgSrc: "/images/Expert/boytwo.svg",
+    profession: "",
+    name: "Sri Taraknath Ghosh",
+    imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "Junior Chef",
-    name: "Shoo Thar Mien",
-    imgSrc: "/images/Expert/girl.png",
+    profession: "",
+    name: "Sri Mansaram Ghosh",
+    imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "Junior Chef",
-    name: "Shoo Thar Mien",
-    imgSrc: "/images/Expert/girl.png",
+    profession: "",
+    name: "Sri Prabhat Kr. Bhandari",
+    imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "Junior Chef",
-    name: "Shoo Thar Mien",
-    imgSrc: "/images/Expert/girl.png",
+    profession: "",
+    name: "Sri Nepal Ch. Mukherjee",
+    imgSrc: "/images/Expert/default.png",
+  },
+  {
+    profession: "Teacher Representative",
+    name: "Sri Chandan Sarkar",
+    imgSrc: "/images/Expert/Chandan Sarkar.png",
+  },
+  {
+    profession: "Student Representative",
+    name: "Sri Malay Kr. Dhara",
+    imgSrc: "/images/Expert/Malay.png",
+  },
+  {
+    profession: "Student Representative",
+    name: "Sri Shyamal Mondal",
+    imgSrc: "/images/Expert/Shayamal.png",
   },
 ];
 
@@ -103,7 +123,7 @@ export default class MultipleItems extends Component {
               triggerOnce={true}
             >
               <h2 className="text-dblue text-lg font-semibold mb-3 tracking-widest uppercase ls-51">
-                Teaching Staff
+                Members
               </h2>
             </Fade>
             <Fade
@@ -114,7 +134,7 @@ export default class MultipleItems extends Component {
               triggerOnce={true}
             >
               <h3 className="text-3xl lg:text-5xl font-semibold text-black">
-                Let&apos;s meet the Teaching Staff.
+                Let&apos;s meet the Members.
               </h3>
             </Fade>
           </div>
@@ -127,19 +147,12 @@ export default class MultipleItems extends Component {
                     <Image
                       src={items.imgSrc}
                       alt="gaby"
-                      width={362}
-                      height={262}
+                      width={162}
+                      height={162}
                       className="inline-block m-auto"
                     />
-                    <div className="absolute top-[50%] right-[2%]">
-                      <Image
-                        src={"/images/Expert/Linkedin.svg"}
-                        alt="linkedin"
-                        width={220}
-                        height={120}
-                      />
-                    </div>
                   </div>
+                  <h3>------------</h3>
                   <h3 className="text-2xl font-semibold text-lightblack">
                     {items.name}
                   </h3>
