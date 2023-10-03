@@ -19,6 +19,7 @@ module.exports = {
       lightpink: '#F8F7F7',
       pink: '#DF6751',
       blue:'#51dfd3',
+      red:'#FF0000',
       dblue:'#1117c4 ',
       lightblue:'#8de0f0',
       bgpink: 'rgba(223, 103, 81, 0.15)',
