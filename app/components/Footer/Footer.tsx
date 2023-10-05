@@ -49,7 +49,7 @@ const products: ProductType[] = [
     },
     {
         id: 2,
-        section: "Contact",
+        section: "More",
         link:[{name:'Affiliates',link:'#home-section'},
             {name:'Management',link:"#expert-section"},
             {name:'Members',link:"#staff-section"}    
@@ -58,10 +58,11 @@ const products: ProductType[] = [
     ,
     {
         id: 3,
-        section: "More",
+        section: "Contact",
         //link: ['Curriculum','Support']
-        link:[{name:'Curriculum',link:''},
-            {name:'Support',link:''},
+        link:[{name:'Address: VQ8X+372, parul, Arambag, West Bengal',link:'https://www.google.com/maps/place/PARUL+INDOBALA+SISHU+SHIKSHA+SADAN/@22.8651294,87.7981474,15z/data=!4m6!3m5!1s0x39f813bfb68d7503:0xe9298b2159feb03d!8m2!3d22.8651294!4d87.7981474!16s%2Fg%2F11c5h2hy4s?entry=ttu'},
+            {name:'Mobile:0000000000',link:''},
+            {name:'Email:parulindobala@gmail.com',link:"https://mail.google.com/mail/?view=cm&fs=1&to=parulindobala@gmail.com"},
         ]
     }
 ]
