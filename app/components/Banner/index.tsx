@@ -34,7 +34,7 @@ const Banner = () => {
                             <Image src={'/images/Banner/scholar.png'} alt="scholar-image" width={68} height={68} />
                             <p className='text-lg font-normal'>More than 500+ <br /> Successful Scholars</p>
                         </div>
-                        <Image src="/images/Banner/School.png" alt="nothing" width={900} height={700} style={{borderRadius:'20px'}} />
+                        <Image src="/images/Banner/Banner.png" alt="nothing" width={900} height={700} style={{borderRadius:'20px'}} />
                     </div>
                 </div>
             </div>
