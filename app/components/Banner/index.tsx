@@ -31,7 +31,7 @@ const Banner = () => {
 
                     <div className='col-span-6 flex justify-center relative'>
                         <div className='flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute'>
-                            <Image src={'/images/Banner/scholar.png'} alt="pizza-image" width={68} height={68} />
+                            <Image src={'/images/Banner/scholar.png'} alt="scholar-image" width={68} height={68} />
                             <p className='text-lg font-normal'>More than 500+ <br /> Successful Scholars</p>
                         </div>
                         <Image src="/images/Banner/school.png" alt="nothing" width={900} height={700} style={{borderRadius:'20px'}} />

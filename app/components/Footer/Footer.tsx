@@ -43,7 +43,8 @@ const products: ProductType[] = [
         section: "School",
         link:[{name:'About',link:'#home-section'},
             {name:'Mission',link:"#mission-section"},
-            {name:'Teachers',link:'#teacher-section'}
+            {name:'Teachers',link:'#teacher-section'},
+            {name:'History',link:'#history-section'}
         ],
     },
     {

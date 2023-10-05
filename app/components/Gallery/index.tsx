@@ -22,13 +22,23 @@ const Gallery = () => {
                 <div className='grid grid-cols-1 md:grid-cols-12 my-16 sm:space-x-6 space-y-6 md:space-y-0 px-6'>
 
                     <div className='col-span-6 flex justify-center overflow-hidden rounded-3xl'>
-                        <Image src="/images/Gallery/Schoolimage1.jpg" alt="school-one" width={1000} height={805} className="inner-img"/>
+                        <div className="grid grid-rows-1 grid-flow-row gap-4 rounded-3xl">
+                            <div className="row-span-1 overflow-hidden rounded-3xl">
+                                <Image src="/images/Gallery/schoolimage2.jpeg" alt="school-two" width={700} height={405} className="inner-img"/>
+                            </div>
+                            <div className='overflow-hidden row-span-2 rounded-3xl '>
+                                <div className='rounded-3xl'>
+                                    <Image src="/images/Gallery/Schoolimage1.jpg" alt="school-three" width={500} height={405} className="inner-img"/>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
 
                     <div className='col-span-6 flex justify-center'>
                         <div className="grid grid-rows-1 grid-flow-row gap-4">
                             <div className="row-span-1 overflow-hidden rounded-3xl">
-                                <Image src="/images/Gallery/Schoolimage2.jpg" alt="school-two" width={700} height={405} className="inner-img"/>
+                                <Image src="/images/Gallery/teacher.jpeg" alt="school-two" width={700} height={505} className="inner-img"/>
                             </div>
                             <div className='grid grid-cols-2 gap-2'>
                                 <div className='overflow-hidden rounded-3xl'>
