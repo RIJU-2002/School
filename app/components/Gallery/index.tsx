@@ -24,11 +24,11 @@ const Gallery = () => {
                     <div className='col-span-6 flex justify-center overflow-hidden rounded-3xl'>
                         <div className="grid grid-rows-1 grid-flow-row gap-4 rounded-3xl">
                             <div className="row-span-1 overflow-hidden rounded-3xl">
-                                <Image src="/images/Gallery/schoolimage2.jpeg" alt="school-two" width={700} height={405} className="inner-img"/>
+                                <Image src="/images/Gallery/schoolimage2.jpeg" alt="school-two" width={600} height={300} className="inner-img"/>
                             </div>
                             <div className='overflow-hidden row-span-2 rounded-3xl '>
                                 <div className='rounded-3xl'>
-                                    <Image src="/images/Gallery/Schoolimage1.jpg" alt="school-three" width={500} height={405} className="inner-img"/>
+                                    <Image src="/images/Gallery/Schoolimage6.jpg" alt="school-three" width={600} height={300} className="inner-img"/>
                                 </div>
                             </div>
                         </div>
@@ -38,14 +38,14 @@ const Gallery = () => {
                     <div className='col-span-6 flex justify-center'>
                         <div className="grid grid-rows-1 grid-flow-row gap-4">
                             <div className="row-span-1 overflow-hidden rounded-3xl">
-                                <Image src="/images/Gallery/teacher.jpeg" alt="school-two" width={700} height={505} className="inner-img"/>
+                                <Image src="/images/Gallery/schoolimage6.jpeg" alt="school-two" width={600} height={300} className="inner-img"/>
                             </div>
                             <div className='grid grid-cols-2 gap-2'>
                                 <div className='overflow-hidden rounded-3xl'>
-                                    <Image src="/images/Gallery/Schoolimage5.jpg" alt="school-three" width={500} height={405} className="inner-img"/>
+                                    <Image src="/images/Gallery/Schoolimage5.jpg" alt="school-three" width={600} height={300} className="inner-img"/>
                                 </div>
                                 <div className='overflow-hidden rounded-3xl'>
-                                    <Image src="/images/Gallery/schoolimage4.jpg" alt="school-four" width={500} height={405} className="inner-img"/>
+                                    <Image src="/images/Gallery/schoolimage4.jpg" alt="school-four" width={600} height={300} className="inner-img"/>
                                 </div>
                             </div>
                         </div>

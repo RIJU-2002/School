@@ -71,7 +71,7 @@ const postData: DataType[] = [
     {
         profession: 'B.A(Eng),D.EL.Ed',
         name: 'Sri Bulbul Sanakar',
-        imgSrc: '/images/Expert/default.png',
+        imgSrc: '/images/Expert/bubul.png',
     },
     {
         profession: 'B.Com(Hons),D.EL.Ed',

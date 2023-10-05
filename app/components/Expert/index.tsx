@@ -15,13 +15,13 @@ interface DataType {
 const postData: DataType[] = [
     {
         profession: 'President',
-        name: 'Prof. Dulai Ch. Mal',
-        imgSrc: '/images/Expert/default.png',
+        name: 'Prof. Dulal Ch. Mal',
+        imgSrc: '/images/Expert/dulal.jpeg',
     },
     {
         profession: 'Secretary',
         name: 'Sri Nandalal Ghosh',
-        imgSrc: '/images/Expert/default.png',
+        imgSrc: '/images/Expert/nandalal.jpeg',
     },
     
 ]

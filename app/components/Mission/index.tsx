@@ -41,7 +41,7 @@ const Mission = () => {
                     <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                         {cardData.map((items, i) => (
                             <div className='card-b p-8 relative rounded-3xl' key={i}>
-                                <p className='text-lg font-normal text-black text-center text-opacity-50'>{items.subheading}</p>
+                                <p className='text-lg font-serif font-bold text-black text-center text-opacity-100'>{items.subheading}</p>
                                 <h3 className='text-2xl text-black font-semibold text-center mt-10'>{items.heading}</h3>
                             </div>
                         ))}
