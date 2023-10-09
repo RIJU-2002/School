@@ -61,7 +61,7 @@ const products: ProductType[] = [
         section: "Contact",
         //link: ['Curriculum','Support']
         link:[{name:'Address: VQ8X+372, parul, Arambag, West Bengal',link:'https://www.google.com/maps/place/PARUL+INDOBALA+SISHU+SHIKSHA+SADAN/@22.8651294,87.7981474,15z/data=!4m6!3m5!1s0x39f813bfb68d7503:0xe9298b2159feb03d!8m2!3d22.8651294!4d87.7981474!16s%2Fg%2F11c5h2hy4s?entry=ttu'},
-            {name:'Mobile:0000000000',link:''},
+            {name:'Mobile:9153087276',link:''},
             {name:'Email:parulindobala@gmail.com',link:"https://mail.google.com/mail/?view=cm&fs=1&to=parulindobala@gmail.com"},
         ]
     }
