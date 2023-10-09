@@ -14,42 +14,42 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'B.Sc Computer Trained(D.T.P)',
+        profession: 'Assistant Teacher',
         name: 'Sri Swarup Kumar Roy',
         imgSrc: '/images/Expert/default.png',
     },
     {
-        profession: 'Nursery Training',
+        profession: 'Assistant Teacher',
         name: 'Sri Srikanta Pal',
         imgSrc: '/images/Expert/Srikanta Pal.png',
     },
     {
-        profession: 'B.Com(Hons)Acc,I.T.I(Electrician)',
+        profession: 'Assistant Teacher',
         name: 'Sri Hari Narayan Konar',
         imgSrc: '/images/Expert/Hari.png',
     },
     {
-        profession: 'M.A.(Beng),B.Ed',
+        profession: 'Assistant Teacher',
         name: 'Smt. Asima Dey',
         imgSrc: '/images/Expert/Asima.png',
     },
     {
-        profession: 'B.A(Eng.) D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Chandan Sarkar',
         imgSrc: '/images/Expert/Chandan Sarkar.png',
     },
     {
-        profession: 'B.Com(H),D.F.A,D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Shyamal Mondal',
         imgSrc: '/images/Expert/Shayamal.png',
     },
     {
-        profession: 'B.A.(Hons in Bengali),B.LA.M,D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Swapan Pal',
         imgSrc: '/images/Expert/Swapan.png',
     },
     {
-        profession: 'B.A.(Hons in Bengali),D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Avijit Samanta',
         imgSrc: '/images/Expert/default.png',
     },
