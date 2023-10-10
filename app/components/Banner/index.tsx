@@ -19,7 +19,7 @@ const Banner = () => {
                             </h1>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Managed by PARUL SIKSHA-O-SAMAJ UNNAYAN PARISHAD <br /> (A Regd. Sociey-Regn, No.S/5469 of 1962-63 Act, XXI of 1860)<br/>Registered under Section 12A of the Income Tax 1961 </p>
+                            <p className='text-grey lg:text-lg font-normal mb-10 lg:text-start text-center'>Managed by PARUL SHIKSHA-O-SAMAJ UNNAYAN PARISHAD <br /> (A Regd. Sociey-Regn, No.S/5469 of 1962-63 Act, XXI of 1860)<br/>Registered under Section 12A of the Income Tax 1961 </p>
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
                             <div className='md:flex align-middle justify-center lg:justify-start'>
