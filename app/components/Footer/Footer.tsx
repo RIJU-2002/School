@@ -79,7 +79,7 @@ const footer = () => {
                     <div className="flex flex-shrink-0 items-center border-right">
                         <Image src="/images/Logo/Logo.png" alt="logo" width={56} height={56} />
                         <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                        PARUL INDOBALA SISHU SIKSHA SADAN.
+                        PARUL INDOBALA SISHU SHIKSHA SADAN.
                         </Link>
                     </div>
                     <h3 className='text-textbl text-xs font-medium mt-5 mb-4 lg:mb-16'> Join us to see a <br /> brighter future of your children.</h3>
@@ -117,7 +117,7 @@ const footer = () => {
             {/* All Rights Reserved */}
 
             <div className='py-10 md:flex items-center justify-between border-t border-t-bordertop'>
-                <h4 className='text-darkgrey text-sm text-center md:text-start font-normal'>@2023 - PARUL INDOBALA SISHU SIKSHA SADAN. All Rights Reserved by <Link href="" target="_blank"> PARUL INDOBALA SISHU SIKSHA SADAN</Link></h4>
+                <h4 className='text-darkgrey text-sm text-center md:text-start font-normal'>@2023 - PARUL INDOBALA SISHU SHIKSHA SADAN. All Rights Reserved by <Link href="" target="_blank"> PARUL INDOBALA SISHU SIKSHA SADAN</Link></h4>
                 <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
                     <h4 className='text-darkgrey text-sm font-normal'><Link href="/" target="_blank">Privacy policy</Link></h4>
                     <div className="h-5 bg-bordertop w-0.5"></div>
