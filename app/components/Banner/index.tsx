@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
                             <h1 className="text-4xl lg:text-5xl font-semibold mb-5 text-lightgrey md:4px lg:text-start text-center">
-                                Welcome <br /> to the website of PARUL INDOBALA SISHU SIKSHA SADAN
+                                Welcome <br /> to the website of PARUL INDOBALA SISHU SHIKSHA SADAN
                             </h1>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
