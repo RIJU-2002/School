@@ -29,13 +29,13 @@ const History = () => {
                             <br />
                             Apart from English other subjects are also taught in a very
                             careful manner by expert and experienced teachers. We always
-                            ensure quality and joyful learning to all the children.
+                            ensure quality and joyful learning for all the children.
                             <br />
-                            The School has its own spacious play ground , sufficient classroom
-                            ,facility of safe drinking water,good sitting arrangement and
+                            The School has its own spacious play ground, sufficient classroom
+                            , facility of safe drinking water, good sitting arrangement and
                             hygenic latrine facility. The School is fully protected by it's
                             long & highwall boundary. Our student teacher ratio is 1:14 which
-                            is too much ideal for an instituition.
+                            is ideal for an instituition.
                             </h1>
                         </Fade>
                     </div>
