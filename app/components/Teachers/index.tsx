@@ -14,77 +14,77 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'B.Sc Computer Trained(D.T.P)',
+        profession: 'Assistant Teacher',
         name: 'Sri Swarup Kumar Roy',
         imgSrc: '/images/Expert/default.png',
     },
     {
-        profession: 'Nursery Training',
+        profession: 'Assistant Teacher',
         name: 'Sri Srikanta Pal',
         imgSrc: '/images/Expert/Srikanta Pal.png',
     },
     {
-        profession: 'B.Com(Hons)Acc,I.T.I(Electrician)',
+        profession: 'Assistant Teacher',
         name: 'Sri Hari Narayan Konar',
         imgSrc: '/images/Expert/Hari.png',
     },
     {
-        profession: 'M.A.(Beng),B.Ed',
+        profession: 'Assistant Teacher',
         name: 'Smt. Asima Dey',
         imgSrc: '/images/Expert/Asima.png',
     },
     {
-        profession: 'B.A(Eng.) D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Chandan Sarkar',
         imgSrc: '/images/Expert/Chandan Sarkar.png',
     },
     {
-        profession: 'B.Com(H),D.F.A,D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Shyamal Mondal',
         imgSrc: '/images/Expert/Shayamal.png',
     },
     {
-        profession: 'B.A.(Hons in Bengali),B.LA.M,D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Swapan Pal',
         imgSrc: '/images/Expert/Swapan.png',
     },
     {
-        profession: 'B.A.(Hons in Bengali),D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Avijit Samanta',
         imgSrc: '/images/Expert/default.png',
     },
     {
-        profession: 'M.A(Beng.),D.EL.Ed',
-        name: 'Sri Nil Kumar Dey',
+        profession: 'Assistant Teacher',
+        name: 'Sri Abhilash Roy',
         imgSrc: '/images/Expert/default.png',
     },
     {
-        profession: 'B.A.(Hons in History),D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Smt. Moutusi Halder',
         imgSrc: '/images/Expert/Moutusi.png',
     },
     {
-        profession: 'B.A.,B.L.I.S,Basic Computer,D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Malay Kr. Dhara',
         imgSrc: '/images/Expert/Malay.png',
     },
     {
-        profession: 'B.A(Eng),D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Bulbul Sanakar',
         imgSrc: '/images/Expert/bubul.png',
     },
     {
-        profession: 'B.Com(Hons),D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Saumen Halder',
         imgSrc: '/images/Expert/Saumen.png',
     },
     {
-        profession: 'M.A.(Beng),D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Smt. Dorothy Hazra',
         imgSrc: '/images/Expert/Dorothy.png',
     },
     {
-        profession: 'B.Com,(Hons in Accountancy),Computer Trained,B.L.I.S,D.EL.Ed',
+        profession: 'Assistant Teacher',
         name: 'Sri Saikat Hazra',
         imgSrc: '/images/Expert/default.png',
     },

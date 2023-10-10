@@ -12,8 +12,8 @@ interface Notice{
 
 const NoticeList: Notice[]=[
     {
-        title: "Publishing new website for school",
-        link: "/Pdf/evs.pdf"  //put the link from imgbb
+        title: "Staff List",
+        link: "/Pdf/teachers.pdf"  //put the link from imgbb
     },
 ]
 const Notice = () => {

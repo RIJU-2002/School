@@ -22,7 +22,7 @@ const postData: DataType[] = [
     profession: "Vice Principal",
     name: "Sri Srikanta Pal",
     imgSrc: "/images/Expert/Srikanta Pal.png",
-  },  
+  },
   {
     profession: "Assistant Teacher",
     name: "Sri Saikat Hazra",
@@ -123,7 +123,7 @@ export default class MultipleItems extends Component {
               triggerOnce={true}
             >
               <h2 className="text-dblue text-lg font-semibold mb-3 tracking-widest uppercase ls-51">
-                Members
+                Non-Teaching Staff
               </h2>
             </Fade>
             <Fade
@@ -134,7 +134,7 @@ export default class MultipleItems extends Component {
               triggerOnce={true}
             >
               <h3 className="text-3xl lg:text-5xl font-semibold text-black">
-                Let&apos;s meet the Members.
+                Let&apos;s meet the Non-Teaching Staff.
               </h3>
             </Fade>
           </div>
