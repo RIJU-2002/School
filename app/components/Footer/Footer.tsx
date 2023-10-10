@@ -105,7 +105,7 @@ const footer = () => {
                         <ul>
                             {product.link.map((link: Link, index: number) => (
                                 <li key={index} className='mb-5'>
-                                    <Link href={link.link} className="text-footerlinks text-base font-normal mb-6 space-links">{link.name}</Link>
+                                    <Link href={link.link} target="_blank" className="text-footerlinks text-base font-normal mb-6 space-links">{link.name}</Link>
                                 </li>
                             ))}
                         </ul>

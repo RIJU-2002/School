@@ -43,7 +43,7 @@ const Notice = () => {
                                         <div className="mt-5 mx-5 my-5 " >
                                             {NoticeList.map((items, i) => (
                                                 <div className='p-8 relative ' key={i}>
-                                                    <p className='text-lg font-normal text-red text-center text-opacity-100'>{i+1}. <Link href={items.link}> {items.title}</Link></p>
+                                                    <p className='text-lg font-normal text-red text-center text-opacity-100'>{i+1}. <Link href={items.link} target="_blank"> {items.title}</Link></p>
                                                     
                                                 </div>
                                             ))}
