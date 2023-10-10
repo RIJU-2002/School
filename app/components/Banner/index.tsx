@@ -8,7 +8,7 @@ const Banner = () => {
 
     return (
         <div id="home-section" className='bg-lightpink'>
-            <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
+            <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6 py-5">
 
                 <div className='grid grid-cols-1 lg:grid-cols-12 space-x-1'>
 
