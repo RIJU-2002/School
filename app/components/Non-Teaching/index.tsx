@@ -14,55 +14,25 @@ interface DataType {
 
 const postData: DataType[] = [
   {
-    profession: "Principal",
-    name: "Sri Swarup Kumar Roy",
-    imgSrc: "/images/Expert/default.png",
-  },
-  {
-    profession: "Vice Principal",
-    name: "Sri Srikanta Pal",
-    imgSrc: "/images/Expert/Srikanta Pal.png",
-  },
-  {
-    profession: "Assistant Teacher",
-    name: "Sri Saikat Hazra",
-    imgSrc: "/images/Expert/default.png",
-  },
-  {
-    profession: "Assistant Teacher",
-    name: "Sri Taraknath Ghosh",
-    imgSrc: "/images/Expert/default.png",
-  },
-  {
-    profession: "Assistant Teacher",
-    name: "Sri Mansaram Ghosh",
-    imgSrc: "/images/Expert/default.png",
-  },
-  {
-    profession: "Assistant Teacher",
-    name: "Sri Prabhat Kr. Bhandari",
-    imgSrc: "/images/Expert/default.png",
-  },
-  {
-    profession: "Assistant Teacher",
-    name: "Sri Nepal Ch. Mukherjee",
-    imgSrc: "/images/Expert/default.png",
-  },
-  {
-    profession: "Teacher Representative",
-    name: "Sri Chandan Sarkar",
-    imgSrc: "/images/Expert/Chandan Sarkar.png",
-  },
-  {
-    profession: "Student Representative",
-    name: "Sri Malay Kr. Dhara",
-    imgSrc: "/images/Expert/Malay.png",
-  },
-  {
-    profession: "Student Representative",
-    name: "Sri Shyamal Mondal",
-    imgSrc: "/images/Expert/Shayamal.png",
-  },
+    profession: 'Accountant',
+    name: 'Sri Saikat Hazra',
+    imgSrc: '/images/Expert/default.png',
+},
+{
+  profession: 'Matron',
+  name: 'Smt Mitali Modak',
+  imgSrc: '/images/Expert/Mitali.png',
+},
+{
+  profession: 'Matron',
+  name: 'Smt Purnima Malik',
+  imgSrc: '/images/Expert/Purnima.png',
+},
+{
+  profession: 'Matron',
+  name: 'Smt Roma Chel',
+  imgSrc: '/images/Expert/Rama.png',
+},
 ];
 
 // CAROUSEL SETTINGS

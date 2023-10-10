@@ -51,7 +51,7 @@ const postData: DataType[] = [
     {
         profession: 'Assistant Teacher',
         name: 'Sri Avijit Samanta',
-        imgSrc: '/images/Expert/default.png',
+        imgSrc: '/images/Expert/Abhijit.png',
     },
     {
         profession: 'Assistant Teacher',
@@ -82,11 +82,6 @@ const postData: DataType[] = [
         profession: 'Assistant Teacher',
         name: 'Smt. Dorothy Hazra',
         imgSrc: '/images/Expert/Dorothy.png',
-    },
-    {
-        profession: 'Assistant Teacher',
-        name: 'Sri Saikat Hazra',
-        imgSrc: '/images/Expert/default.png',
     },
 ]
 
@@ -140,7 +135,7 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div className="py-10 sm:py-20 bg-lightblue" id="teacher-section">
+            <div className="py-10 sm:py-20 bg-[#0284c7]" id="teacher-section">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">
