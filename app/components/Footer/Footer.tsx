@@ -5,6 +5,7 @@ import Image from "next/image";
 interface Link{
     name:string;
     link:string;
+    target:string;
 }
 interface ProductType {
     id: number;
@@ -41,18 +42,18 @@ const products: ProductType[] = [
     {
         id: 1,
         section: "School",
-        link:[{name:'About',link:'#home-section'},
-            {name:'Mission',link:"#mission-section"},
-            {name:'Teachers',link:'#teacher-section'},
-            {name:'History',link:'#history-section'}
+        link:[{name:'About',link:'#home-section',target:''},
+            {name:'Mission',link:"#mission-section",target:''},
+            {name:'Teachers',link:'#teacher-section',target:''},
+            {name:'History',link:'#history-section',target:''}
         ],
     },
     {
         id: 2,
         section: "More",
-        link:[{name:'Affiliates',link:'#home-section'},
-            {name:'Management',link:"#expert-section"},
-            {name:'Members',link:"#staff-section"}    
+        link:[{name:'Affiliates',link:'#home-section',target:''},
+            {name:'Management',link:"#expert-section",target:''},
+            {name:'Members',link:"#staff-section",target:''}    
         ]
     }
     ,
@@ -60,9 +61,9 @@ const products: ProductType[] = [
         id: 3,
         section: "Contact",
         //link: ['Curriculum','Support']
-        link:[{name:'Address: VQ8X+372, Parul, Arambag, West Bengal',link:'https://www.google.com/maps/place/PARUL+INDOBALA+SISHU+SHIKSHA+SADAN/@22.8651294,87.7981474,15z/data=!4m6!3m5!1s0x39f813bfb68d7503:0xe9298b2159feb03d!8m2!3d22.8651294!4d87.7981474!16s%2Fg%2F11c5h2hy4s?entry=ttu'},
-            {name:'Mobile:9153087276',link:''},
-            {name:'Email:parulindobala@gmail.com',link:"https://mail.google.com/mail/?view=cm&fs=1&to=parulindobala@gmail.com"},
+        link:[{name:'Address: VQ8X+372, Parul, Arambag, West Bengal',link:'https://www.google.com/maps/place/PARUL+INDOBALA+SISHU+SHIKSHA+SADAN/@22.8651294,87.7981474,15z/data=!4m6!3m5!1s0x39f813bfb68d7503:0xe9298b2159feb03d!8m2!3d22.8651294!4d87.7981474!16s%2Fg%2F11c5h2hy4s?entry=ttu',target:'_blank'},
+            {name:'Mobile:9153087276',link:'',target:''},
+            {name:'Email:parulindobala@gmail.com',link:"https://mail.google.com/mail/?view=cm&fs=1&to=parulindobala@gmail.com",target:'_blank'},
         ]
     }
 ]
@@ -86,7 +87,7 @@ const footer = () => {
                     <div className='flex gap-4'>
 
                         {socialLinks.map((items, i) => (
-                        <Link href={items.link} key={i}>
+                        <Link href={items.link} target='_blank' key={i}>
                             <div className="bg-white h-10 w-10 shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-pink">
                                 <Image src={items.imgSrc} alt={items.imgSrc} width={items.width} height={2} className="sepiaa" />
                             </div>
@@ -105,7 +106,7 @@ const footer = () => {
                         <ul>
                             {product.link.map((link: Link, index: number) => (
                                 <li key={index} className='mb-5'>
-                                    <Link href={link.link} target="_blank" className="text-footerlinks text-base font-normal mb-6 space-links">{link.name}</Link>
+                                    <Link href={link.link} target={link.target} className="text-footerlinks text-base font-normal mb-6 space-links">{link.name}</Link>
                                 </li>
                             ))}
                         </ul>
