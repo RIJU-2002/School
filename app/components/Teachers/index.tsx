@@ -55,7 +55,7 @@ const postData: DataType[] = [
     },
     {
         profession: 'Assistant Teacher',
-        name: 'Sri Nil Kumar Dey',
+        name: 'Sri Abhilash Roy',
         imgSrc: '/images/Expert/default.png',
     },
     {
