@@ -24,27 +24,27 @@ const postData: DataType[] = [
     imgSrc: "/images/Expert/Srikanta Pal.png",
   },  
   {
-    profession: "",
+    profession: "Assistant Teacher",
     name: "Sri Saikat Hazra",
     imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "",
+    profession: "Assistant Teacher",
     name: "Sri Taraknath Ghosh",
     imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "",
+    profession: "Assistant Teacher",
     name: "Sri Mansaram Ghosh",
     imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "",
+    profession: "Assistant Teacher",
     name: "Sri Prabhat Kr. Bhandari",
     imgSrc: "/images/Expert/default.png",
   },
   {
-    profession: "",
+    profession: "Assistant Teacher",
     name: "Sri Nepal Ch. Mukherjee",
     imgSrc: "/images/Expert/default.png",
   },
