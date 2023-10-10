@@ -11,11 +11,11 @@ interface cardDataType {
 const cardData: cardDataType[] = [
     {
         
-        heading: "To ensure a high quality education among the children. Apart from book Knowledge, efforts are given to impart moral education among the learners so that their character are social responsibilities are formed nicely from the very beginning",
+        heading: "To ensure a high-quality education among the children. Apart from book Knowledge, efforts are given to impart moral education among the learners so that their character and social responsibilities are formed nicely from the very beginning",
         subheading: "---1---",
     },
     {
-        heading: "We are committed to provide a safe,secured and a vibrant learning environment and to promote excellence.Confidence and self esteem in every child.",
+        heading: "We are committed to providing a safe, secure, and vibrant learning environment, thereby promoting excellence, confidence and self-esteem in every child.",
         subheading: "---2---",
     },
     
