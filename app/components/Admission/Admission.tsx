@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
 
 const Admission = () => {
@@ -25,9 +26,11 @@ const Admission = () => {
                                     <div className="relative text-white focus-within:text-white flex flex-row-reverse shadow-fi rounded-full">
                                         <input type="Email address" name="q" className="py-6 sm:py-8 text-sm w-full text-black bg-gray-900 rounded-full pl-4 par-87 focus:outline-none focus:text-black" placeholder="@ enter your email-address" autoComplete="off" />
                                         <div className="absolute inset-y-0 right-0 flex items-center pr-2">
-                                            <button type="submit" className="p-1 focus:outline-none focus:shadow-outline">
-                                                <Image src={'/images/Admission/arrow.svg'} alt="inputicon" width={57} height={71} />
-                                            </button>
+                                            <Link href='https://forms.gle/z7yWYUJ3kEpSZiFw5' target="_blank">
+                                                <button type="submit" className="p-1 focus:outline-none focus:shadow-outline">
+                                                    <Image src={'/images/Admission/arrow.svg'} alt="inputicon" width={57} height={71}/>
+                                                </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </Fade>
